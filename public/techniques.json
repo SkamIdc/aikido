@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Икке",
+    "technique": "Осае Вадза",
+    "variants": [
+      {
+        "variantID": 1,
+        "variantName": "Коса Дори Икке вариант Омоте (Тачи Вадза)",
+        "description": "Уке (атакующий) захватывает за одноименную руку. Отшаг в сторону, одновременно поднимая обе руки вверх. Шаг к уке, руки опускаются вниз захватывая руку. Выводя из равновесия уке, прижимается плечо к татами. Контроль: давление на руку чуть выше локтя",
+        "video": "../src/assets/techniques/IkkeOmote.mp4",
+        "preview": "../src/assets/techniques/pre.png"
+      },
+      {
+        "variantID": 2,
+        "variantName": "Коса Дори Икке вариант Ура (Тачи Вадза)",
+        "description": "Уке (атакующий) захватывает за одноименную руку. Шаг за спину уке, руки поднимаются вверх. Тенкан, руки перед центром опускаются вниз. Тенкай, прижимая плечо уке к татами. Контроль: давление на руку чуть выше локтя",
+        "video": "../src/assets/techniques/IkkeOmote.mp4",
+        "preview": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Коте Гаеши",
+    "technique": "Наге Вадза",
+    "variants": [
+      {
+        "variantID": 1,
+        "variantName": "",
+        "description": "",
+        "video": "",
+        "preview": ""
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Шихо Наге",
+    "technique": "Наге Вадза",
+    "variants": [
+      {
+        "variantID": 1,
+        "variantName": "",
+        "description": "",
+        "video": "",
+        "preview": ""
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Икриме Наге",
+    "technique": "Наге Вадза",
+    "variants": [
+      {
+        "variantID": 1,
+        "variantName": "",
+        "description": "",
+        "video": "",
+        "preview": ""
+      }
+    ]
+  }
+]

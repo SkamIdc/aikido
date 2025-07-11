@@ -1,0 +1,119 @@
+.creator__part-select {
+  width: 439.6px;
+  height: 49.6px;
+  border: 1px solid rgba(216, 224, 240, 1);
+  border-radius: 14px;
+  padding: 12px 0 12px 18px;
+  box-shadow: 0px 1px 2px 0px rgba(184, 200, 224, 0.22);
+}
+
+.creator__part-select.placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(125, 133, 146, 1);
+}
+
+.creator__part-select:not(.placeholder) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(10, 22, 41, 1);
+}
+
+.creator__part-select option {
+  font-size: 16px;
+  color: rgba(10, 22, 41, 1);
+}
+
+.creator__part-select option:disabled {
+  font-size: 14px;
+  color: rgba(125, 133, 146, 1);
+}
+
+.days__container {
+  display: flex;
+  gap: 12px;
+}
+
+.day__box {
+  cursor: pointer;
+  width: 48px;
+  height: 42px;
+  border-radius: 7px;
+  background-color: rgba(244, 249, 253, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(125, 133, 148, 1);
+  transition: background-color 0.25s;
+}
+
+.day__box.selected {
+  background-color: rgba(23, 79, 154, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.time__container {
+  display: flex;
+  gap: 16px;
+}
+
+.time__input {
+  width: 150px;
+  padding: 12px 0 12px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(216, 224, 240, 1);
+  box-shadow: 0px 1px 2px 0px rgba(184, 200, 224, 0.22);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(10, 22, 41, 1)
+}
+
+.extra__days {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.extra__days__add {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(23, 79, 154, 1);
+  text-align: left;
+}
+
+.extra__days__add:hover {
+  opacity: 70%;
+}
+
+.extra__days__container {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  row-gap: 18px;
+}
+
+.creator__part.extra {
+  width: fit-content;
+}
+
+.creator__part-input.extra {
+  width: 150px;
+  padding: 12px 0 12px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(216, 224, 240, 1);
+  box-shadow: 0px 1px 2px 0px rgba(184, 200, 224, 0.22);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(10, 22, 41, 1);
+}

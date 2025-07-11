@@ -1,0 +1,133 @@
+/* 
+.members__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    overflow: hidden;
+        min-height: 0;
+    flex: 1 1 auto;
+
+    
+} */
+/* .list-srcoll{
+    width: 100%;
+    height: 50px;
+    background-color: #0a1629;
+ } */
+.members__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    /* height: 100%; */
+    flex: 1 1 auto;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    padding-right: 20px;
+    /* margin-bottom: 20px; */
+}
+
+
+.members__item {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 6px 0px rgba(196, 203, 214, 0.1);
+    border-radius: 24px;
+    color: #0a1629;
+    width: 100%;
+    padding: 20px 28px;
+    box-sizing: border-box;
+    /* justify-content: space-between; */
+    column-gap: 15px;
+    position: relative;
+}
+
+.members__avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.members__header {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.members__header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* margin-right: auto; */
+}
+
+.members__name {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: start;
+}
+
+.members__login {
+    margin: 0;
+    font-size: 14px;
+    color: #91929e;
+    line-height: 19px;
+}
+
+.members__info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    list-style: none;
+    padding: 0;
+    row-gap: 14px;
+    margin-right: auto;
+    width: 100%;
+}
+
+.members__info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 20%;
+}
+
+.members__info-label {
+    font-size: 14px;
+    line-height: 19px;
+    color: #91929e;
+}
+
+.members__info-value {
+    line-height: 24px;
+    margin: 0;
+    font-size: 16px;
+    text-align: start;
+}
+
+.members__actions {
+    padding: 9px;
+    border-radius: 14px;
+    background-color: #f4f9fd;
+    border: 1px solid transparent;
+}
+
+.members__actions:hover {
+    background-color: #f4f9fd;
+    opacity: 0.6;
+}

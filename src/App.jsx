@@ -1,28 +1,30 @@
-import { useState } from 'react'
-import { Routes, Route, Navigate } from 'react-router-dom'
-import viteLogo from '/vite.svg'
-import Sidebar from './components/Sidebar/Sidebar.jsx';
-import './App.css';
+import { useState } from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import viteLogo from "/vite.svg";
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
+import "./App.css";
 
-import ProfilePage from './pages/ProfilePage.jsx';
-import EventsPage from './pages/EventsPage.jsx';
-import TechniquesPage from './pages/TechniquesPage.jsx';
-import ClubsPage from './pages/ClubsPage.jsx';
-import GroupsPage from './pages/GroupsPage.jsx';
-import LogPage from './pages/LogPage.jsx';
-import MembersPage from './pages/MembersPage.jsx';
-import SeminarsPage from './pages/SeminarsPage.jsx';
-import StatisticsPage from './pages/StatisticsPage.jsx';
-
+import ProfilePage from "./pages/ProfilePage.jsx";
+import EventsPage from "./pages/EventsPage.jsx";
+import TechniquesPage from "./pages/TechniquesPage.jsx";
+import ClubsPage from "./pages/ClubsPage.jsx";
+import GroupsPage from "./pages/GroupsPage.jsx";
+import LogPage from "./pages/LogPage.jsx";
+import MembersPage from "./pages/MembersPage.jsx";
+import SeminarsPage from "./pages/SeminarsPage.jsx";
+import StatisticsPage from "./pages/StatisticsPage.jsx";
 
 function App() {
     return (
-        <div className='layout'>
+        <div className="layout">
             <Sidebar />
 
             <main className="content">
                 <Routes>
-                    <Route path="/" element={<Navigate to="/profile" replace />} />
+                    <Route
+                        path="/"
+                        element={<Navigate to="/profile" replace />}
+                    />
                     <Route path="/profile" element={<ProfilePage />} />
                     <Route path="/events" element={<EventsPage />} />
                     <Route path="/techniques" element={<TechniquesPage />} />
@@ -39,4 +41,4 @@ function App() {
     );
 }
 
-export default App
+export default App;

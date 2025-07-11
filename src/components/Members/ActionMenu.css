@@ -1,0 +1,30 @@
+.actions-menu {
+    position: absolute;
+    right: 5.5%;
+    /* top: 100%; */
+    margin-top: 4px;
+    width: 140px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: visible;
+    list-style: none;
+    padding: 6px 0;
+    z-index: 10;
+}
+
+.actions-menu li {
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.actions-menu li:hover {
+    background: #f1f5f9;
+}
+
+.actions-menu .danger {
+    color: #e11d48;
+}

@@ -1,0 +1,41 @@
+.video__modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(33, 85, 163, 0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.video__content {
+  display: flex;
+  justify-content: center;
+}
+
+.technique__video {
+  cursor: pointer;
+  width: 60%;
+  height: 30%;
+}
+
+.close__video__button {
+  position: fixed;
+  top: 5%;
+  left: 85%;
+  width: 44px;
+  height: 44px;
+  background-color: rgb(240, 255, 255, 1);
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: black;
+}
+
+.close__video__button:hover {
+  background-color: rgb(240, 255, 255, 0.3);
+}

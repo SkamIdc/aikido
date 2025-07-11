@@ -1,0 +1,25 @@
+const mapUserDtoToForm = (u) => ({
+    id: u.id ?? u.Id,
+    avatarBase64: u.photo ?? null,
+    avatar: null,
+    login: u.login ?? "",
+    password: "",
+    role: u.role ?? "",
+    fullName: u.fullName ?? "",
+    gender: u.sex ?? "",
+    birthDate: (u.birthday ?? "").substring(0, 10),
+    city: u.city ?? "",
+    age: u.age ?? "",
+    rank: u.grade ?? "",
+    rankDate: (u.certificationDate ?? "").substring(0, 10),
+    clubId: (u.clubId ?? "")?.toString(),
+    groupId: (u.groupId ?? "")?.toString(),
+    phone: u.phoneNumber ?? "",
+    parentName: u.parentFullName ?? "",
+    parentPhone: u.parentFullNumber ?? "",
+    schoolClass: (u.schoolClass ?? "")?.toString(),
+    annualFee: (u.annualFee ?? "")?.toString(),
+    registrationDate: (u.registrationDate ?? "").substring(0, 10),
+});
+
+export default mapUserDtoToForm;

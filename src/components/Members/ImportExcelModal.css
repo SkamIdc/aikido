@@ -1,0 +1,148 @@
+.import-excel-modal__mode-toggle {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.import-excel-modal__mode-toggle-button {
+    padding: 13px 24px;
+    border: 1px solid #d8e0f0;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #383838;
+    cursor: pointer;
+}
+
+.import-excel-modal__mode-toggle-button--active {
+    background-color: #174f9a;
+    color: #fff;
+    border-color: #174f9a;
+    font-weight: 700;
+}
+
+.import-excel-modal__mode-toggle-button--left {
+    border-radius: 10px 0 0 10px;
+    border-right: transparent;
+}
+
+.import-excel-modal__mode-toggle-button--right {
+    border-radius: 0 10px 10px 0;
+    border-left: transparent;
+}
+
+.import-excel-modal__template {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.import-excel-modal__template-buttons {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.import-excel-modal__template-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 14px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #f4f9fd;
+    color: #174f9a;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    column-gap: 15px;
+    cursor: pointer;
+}
+
+.import-excel-modal__template-image {
+    width: 24px;
+    height: 24px;
+}
+
+.import-excel-modal__file-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.import-excel-modal__file-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.import-excel-modal__file--inactive {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.import-excel-modal__file {
+    display: flex;
+    align-items: center;
+    padding: 8px 14px;
+    border-radius: 10px;
+    background-color: #f4f9fd;
+    color: #174f9a;
+    column-gap: 15px;
+}
+
+.import-excel-modal__file-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.import-excel-modal__file-image {
+    width: 24px;
+    height: 24px;
+}
+
+.import-excel-modal__file-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.import-excel-modal__file-button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 13px 24px;
+    background-color: #174f9a;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    cursor: pointer;
+    /* margin-bottom: -20px; */
+}
+
+.import-excel-modal__import-button {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 13px 24px;
+    background-color: #174f9a;
+    border: 1px solid transparent;
+    border-radius: 14px;
+    cursor: pointer;
+
+    margin-bottom: -20px;
+
+}
+
+.import-excel-modal__import-button--inactive {
+    cursor: default;
+    opacity: 0.6;
+}
